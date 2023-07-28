@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull amritpoudel/simple-python-app
 
 # Run the Docker image as a container
-echo
+docker run -it -p 5000:5000 amritpoudel/simple-python-app
