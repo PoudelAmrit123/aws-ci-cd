@@ -5,4 +5,4 @@ set -e
 docker pull amritpoudel/simple-python-app
 
 # Run the Docker image as a container
-docker run -it -p 5000:5000 amritpoudel/simple-python-app
+docker run -d -p 5000:5000 amritpoudel/simple-python-app
